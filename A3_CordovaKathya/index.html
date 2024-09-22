@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Form </title>
+</head>
+<body>
+    <header>
+        <div class="class">
+            <h1>
+                Students Data Entry Form <br>
+            </h1>
+        </div>    
+    </header>
+    <main>
+        <form>
+        <div class="nombre">
+            <label for="nombre"> Student Name: </label>
+            <input type="text" name="nombre">
+        </div>
+        <div class="email">
+            <label for="email"> Email: </label>
+            <input type="email" name="email">
+        </div>
+        <div class="genero">
+            <label for="gender"> Gender: </label>
+            <label for="gender"> Boy </label> 
+            <input type="radio" name="gender" value="boy">
+            <label for="gender"> Girl </label> 
+            <input type="radio" name="gender" value="girl">
+        </div>
+        <div class="temas">
+            <label for="tema"> Subjects: </label>
+            <input type="checkbox" name="tema" value="tamil"> Tamil
+            <input type="checkbox" name="tema" value="telugu"> Telugu
+            <input type="checkbox" name="tema" value="english"> English
+            <input type="checkbox" name="tema" value="physics"> Physics
+            <input type="checkbox" name="tema" value="economics"> Economics
+        </div>
+        <div class="lugares">
+            <label for="lugar"> City / Town: </label>
+            <select name="lugar">
+                <option value="chennai"> Chennai </option>
+                <option value="bangalore"> Bangalore </option>
+                <option value="hyderabad"> Hyderabad </option>
+                <option value="mumbai"> Mumbai </option>
+                <option value="delhi"> Delhi </option>
+            </select>
+        </div>
+        <div class="comentarios">
+            <label for="comentario"> Comments: </label> <br>
+            <textarea name="comentario" rows="5" cols="40">
+            </textarea>
+        </div>
+        <div class="botones">
+            <input type="reset" value="Clear">
+            <input type="submit" value="Submit">
+        </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
